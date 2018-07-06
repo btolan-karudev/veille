@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>Les variable</title>
 </head>
 <body>
 <?php 
@@ -16,7 +16,7 @@ $NUMBER = 100;
 $NUMBeR = 100;
 echo $name . " " . $NUMBeR;
 
-$name = "<h1> HELLO</h1>";
+$name = "<h1> BONJOUR</h1>";
 
 echo $name;
 

@@ -6,30 +6,24 @@
 </head>
 <body>
 
-<?php 
+<?php
 
-if(3 > 10){
+if (3 > 10) {
 
-echo "three is less than ten";
+    echo "three is less than ten";
 
-} elseif( 4 > 5) {
+} elseif (4 > 5) {
 
-echo "of course four is less than five";
+    echo "of course four is less than five";
 
-}
+} else {
 
-else {
-
-echo "it is not";
+    echo "<h1>no il nest pas plus grand</h1>";
 
 }
 
-    
-    
+
 ?>
-
-
-
 
 
 </body>

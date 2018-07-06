@@ -8,7 +8,7 @@
  
  <?php 
 
-$title = "Edwin Diaz's Site";
+$title = "Benjamin Tolan WebSite";
     
 ?>
   
