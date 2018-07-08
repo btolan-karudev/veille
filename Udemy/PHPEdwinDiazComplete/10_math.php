@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Document Matematique</title>
+    <title>Document Matematique Mandela</title>
 </head>
 <body>
 
