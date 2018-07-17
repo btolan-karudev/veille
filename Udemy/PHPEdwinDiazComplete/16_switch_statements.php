@@ -8,7 +8,7 @@
    
 <?php 
 
-$number = 100;
+$number = 24;
 
 switch($number){
 
@@ -31,6 +31,9 @@ switch($number){
 
 
 }
+  
+  // testin a user or somthing constant with another valuer or multiple cases
+  //IMPOTRANT Break statement to finish the execute
     
     
     
