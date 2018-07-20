@@ -41,7 +41,7 @@ if (false) {
 
 // 	Step 3 : Make a switch Statement that test againts one condition with 5 cases
 
- $nomero = 951;
+ $numero = 951;
 
 switch($numero > 100) {
 
@@ -60,6 +60,7 @@ switch($numero > 100) {
     case 959:
     echo "is it 24";
     break;
+
     default : 
     echo "we could not find anything";
     break;
