@@ -8,7 +8,7 @@
 
 <?php 
 
-$numbers = array(345,397,676,385,2657,5784);
+$numbers = array(1345,3897,676,3885,26587,57884, 456 , 789 ,2541 , 36547 , 96574);
     
 foreach($numbers as $number){
 
