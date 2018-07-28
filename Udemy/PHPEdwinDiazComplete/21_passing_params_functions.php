@@ -9,11 +9,12 @@
 <?php 
 
 function greeting($message){
-    echo $message;
+ 
+    echo ($message .  " este frumos pusca");
 }
 
 
-greeting("Hi Customer how are you?");
+greeting("bunicu");
     
     
 ?>
@@ -30,7 +31,7 @@ echo $sum;
 }
 
 
-addNumbers(345,3462);
+addNumbers(311,48);
     
 ?>
 
