@@ -41,12 +41,12 @@ if (false) {
 
 // 	Step 3 : Make a switch Statement that test againts one condition with 5 cases
 
- $numero = 951;
+ $numero = 9451;
 
-switch($numero > 100) {
+switch($numero) {
 
     case 951:
-    echo "it is 34";
+    echo "it is 951";
     break;
     case 456:
     echo "is it 34";
