@@ -8,12 +8,17 @@
 
 <?php 
 
-function init(){
+function init() {
 
 
-say_Something();
+dit_Qelquechose();
 echo "<br>";
-calculate();  
+calculate(); 
+  echo "<br>";
+  calculate();
+  echo "<br>";
+  dit_Qelquechose();
+  echo "<br>";
 
 }
 
@@ -22,17 +27,19 @@ calculate();
 
 function calculate(){
 
-    echo 456 + 345;
+    echo 456 + 456 + 4654 + 4646 + 4646 + 45648 + 45646546 ;
 
 }
 
 
-function say_Something(){
+function dit_Qelquechose() {
 
-   echo "Hello Student, do you like the class? yes? okay great";
+   echo "Hello Lucas";
 
 }
 
+  
+  
   init();  
     
     
