@@ -15,6 +15,15 @@ return $sum;
     
     
 } 
+  
+echo addNumbers(48, 89);
+  
+  $resultat = addNumbers(48, 189);
+  
+  echo "<br>";
+  
+  echo $resultat;
+  echo "<br>";
 
 $result = addNumbers(34,64);
 
