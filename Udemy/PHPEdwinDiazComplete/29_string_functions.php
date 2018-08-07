@@ -8,17 +8,19 @@
 
 <?php
 
-$string = "Hello student do you like the class";
+$chainedechar = "Bonjour les amis";
 
-echo strlen($string);
-
-echo "<br>";
-
-echo strtoupper($string);
+echo strlen($chainedechar);
 
 echo "<br>";
+  
 
-echo strtolower($string);
+echo strtoupper($chainedechar);
+
+echo "<br>";
+  
+
+echo strtolower($chainedechar);
 
 
 
