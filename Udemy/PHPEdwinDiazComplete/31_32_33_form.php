@@ -2,41 +2,42 @@
 
 if(isset($_POST['submit'])) {
     
-// $name = array("Edwin", "Student", "Peter", "Samid", "Mohad", "Maria", "Jane", "tom");
+$name = array("Edwin", "Student", "Peter", "Samid", "Mohad", "Maria", "Jane", "tom");
     
-//     $minimun = 5;
-//     $maximun = 10;
+    $minimun = 5;
+    $maximun = 10;
 
 $username = $_POST['username'];
 $password = $_POST['password'];
     
 //   if(strlen($username) < $minimun ) {
   
-//       echo "Username has to be longer than five";
+//       echo "Username doit etre 6 characteres minimum";
   
 //   }  
+  
     
 //     if(strlen($username) > $maximun  ) {
   
-//       echo "Username cannot be longer than 10 ";
+//       echo "Username ne doit pas depasser 9 charaxters ";
   
 //   }  
     
-//     if(!in_array($username,$name)) {
+    if(!in_array($username,$name)) {
     
-//         echo " Sorry you are not allowed";
+        echo " Desole vous n etes pas sur la liste";
     
-//     } else {
+    } else {
     
-//     echo "Welcome";
-//     }
-    
-    
-  echo "Oui ca functione";  
+    echo "Welcome";
+    }
     
     
-echo "Hello " . $username;   
-echo "Your Password is " . $password;
+//   echo "Oui ca functione";  
+    
+    
+// echo "Hello " . $username;   
+// echo "Your Password is " . $password;
 
 
 }
