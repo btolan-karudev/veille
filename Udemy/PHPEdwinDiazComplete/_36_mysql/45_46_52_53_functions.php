@@ -1,4 +1,4 @@
-<?php include "db.php";?>
+<?php include "45_db.php";?>
 <?php
 
 
@@ -19,7 +19,7 @@ $salt = "iusesomecrazystrings22";
 $hashF_and_salt = $hashFormat . $salt;
 $password = crypt($password,$hashF_and_salt);   
     
-    $query = "INSERT INTO users(username,password) ";
+    $query = "INSERT INTO users(username, password) ";
     $query .= "VALUES ('$username', '$password')";
     
    $result = mysqli_query($connection, $query);
