@@ -61,7 +61,6 @@ while($row = mysqli_fetch_assoc($result)) {
 
 
 
-
 function showAllData() {
     global $connection;
     $query = "SELECT * FROM users";

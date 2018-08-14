@@ -12,12 +12,12 @@
      <form action="49_login_delete.php" method="post">
             <div class="form-group">
             <label for="username">Username</label>
-            <input type="text" name="username" class="form-control">
+            <input type="text" name="username"  class="form-control hidden">
             </div>
             
              <div class="form-group">
                 <label for="password">Password</label>
-            <input type="password" name="password" class="form-control">
+            <input type="password" name="password" class="form-control hidden">
             </div>
             
              <div class="form-group">
