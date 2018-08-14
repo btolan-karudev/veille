@@ -47,11 +47,16 @@ function readRows() {
     if(!$result) {
         die('Query FAILED' . mysqli_error());
     }
-        
+  
 while($row = mysqli_fetch_assoc($result)) {
-        
-        print_r($row);
+  ?>
+  <pre>
+    <?php     print_r($row); ?>
+  
+  </pre>
+<?php
     }  
+
 }
 
 
@@ -129,22 +134,4 @@ $query .= "WHERE id = $id ";
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
+  

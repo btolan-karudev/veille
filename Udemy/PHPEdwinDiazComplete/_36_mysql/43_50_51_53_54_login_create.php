@@ -2,6 +2,7 @@
 <?php include "45_46_52_53_functions.php" ?>
 <?php createRows(); ?>
 
+
 <?php include "_includes/header.php" ?>
 
 <div class="container">
@@ -24,5 +25,5 @@
         </form>
     </div>
 
-
+<?php readRows(); ?>
 <?php include "_includes/footer.php"?>
