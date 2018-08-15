@@ -25,5 +25,5 @@
         </form>
     </div>
 
-<?php readRows(); ?>
+ <?php // readRows(); ?>
 <?php include "_includes/footer.php"?>
