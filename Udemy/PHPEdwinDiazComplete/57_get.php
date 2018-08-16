@@ -17,14 +17,14 @@
 
 <?php 
 
-$id = 10;
-$button = "CLICK HERE NOW";
+$id = 180;
+$button = "Clickez ici";
     
     
 ?>
 
 
-<a href="get.php?id=<?php echo $id;?>"><?php echo $button;?></a>
+<a href="57_get.php?id=<?php echo $id;?>"><?php echo $button;?></a>
 
 
 
