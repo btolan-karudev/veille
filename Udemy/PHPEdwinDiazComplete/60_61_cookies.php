@@ -1,8 +1,8 @@
 <?php
 
 $name = "SomeName";
-$value = 100;
-$expiration = time() + (60*60*24*7);
+$value = 1000;
+$expiration = time() + (60*60*24*7*456789);
 setcookie($name,$value,$expiration);
 ?>
 <!DOCTYPE html>
