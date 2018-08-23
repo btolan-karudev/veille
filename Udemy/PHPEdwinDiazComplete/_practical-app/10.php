@@ -11,7 +11,26 @@
 
 <article class="main-content col-xs-8">
 
-	
+	<?php 
+  class Dog {
+    
+    var $eyeNumber = 3; 
+    var $eyeCoulour = "red";
+    var $noseNumber = 2;
+    
+    function ShowAll() {
+      echo $this->eyeNumber;
+      echo "<br>";
+      echo $this->eyeCoulour;
+      echo "<br>";
+      echo $this->noseNumber;
+    }
+  }
+  
+  $pitbull = new Dog;
+  echo $pitbull->ShowAll();
+  
+  ?>
 	<?php  
 
 	/*  Step 1: Use the Make a class called Dog

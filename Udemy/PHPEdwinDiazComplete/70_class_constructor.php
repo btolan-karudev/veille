@@ -20,8 +20,13 @@ class Car {
 }
 
 $bmw = new Car();
+echo "<br>";
 
 $truck = new Car();
+echo "<br>";
 
 $semi = new Car();
+echo "<br>";
+
+$dacia = new Car();
 ?>
