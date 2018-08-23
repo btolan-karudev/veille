@@ -37,13 +37,14 @@ class Plane extends Car {
 
 $jet = new Plane();
 //$jet->MoveWheels();
-echo $jet->wheels;
+echo $jet->engine;
 
-//if(class_exists("Plane")) {
-//
-//    echo "it does";
-//
-//}
+// if(class_exists("Plane")) {
+
+//   echo "<br>"; 
+//   echo "it does";
+
+// }
 
 
 

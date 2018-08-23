@@ -3,7 +3,7 @@
 class Car {
     
   
-    function MoveWheels(){
+    function MoveWheels() {
     
         echo "Wheels move";
         

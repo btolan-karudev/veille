@@ -11,11 +11,11 @@ class Car {
 
 if(class_exists("Car")) {
 
-echo "YEayyyyyyyyy Nice";
+echo "La classe est bien eistante";
 
 } else {
 
-echo "no";
+echo "Cet classe n existe pas";
 
 }
 
