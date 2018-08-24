@@ -6,6 +6,8 @@ use Doctrine\ORM\Mapping as ORM;
 
 /**
  * Timestamtable abstract classs to define created behavior
+ *
+ * @ORM\MappedSuperclass
  */
 abstract class Timestampable
 {
