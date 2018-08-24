@@ -27,7 +27,7 @@
     }
   }
   
-  $pitbull = new Dog;
+  $pitbull = new Dog();
   echo $pitbull->ShowAll();
   
   ?>
